@@ -1,6 +1,14 @@
 # gdb-scripts
 Scripts to simplify debug with gdb
 
+## load example
+```
+(gdb) source ~/repo/gdb-scripts/optimized-out.py
+Loading global optimized-out variables support.
+```
+
+Put it into `~/.gdbinit` for autoload
+
 ## optimized-out.py
 Used to detect address of global optimized out variables
 
